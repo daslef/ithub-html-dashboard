@@ -45,6 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  max-height: 70px;
 }
 
 .dashboard__block__content__value {
@@ -56,4 +57,10 @@ body {
 .dashboard__block__content__change {
   font-size: 13px;
   line-height: 160%;
+  color: var(--color--gray);
+}
+
+.dashboard__block__content__plot {
+  flex: 0 0 100%;
+  margin-left: auto;
 }
