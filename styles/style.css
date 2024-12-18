@@ -1,0 +1,13 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.dashboard__block {
+  grid-column: span 1;
+}
+
+.dashboard__block--wide {
+  grid-column: span 2;
+}
